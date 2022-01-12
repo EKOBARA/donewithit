@@ -4,11 +4,12 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
 export default function App() {
   const handlePress = () => {
-    console.log()
+    console.log('Text presssed');
   } 
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello World!</Text>
+      <Text onPress={()=> handlePress()}>Hello World!</Text>
+      <Image />
     </SafeAreaView>
   );
 }
