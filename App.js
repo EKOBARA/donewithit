@@ -9,10 +9,10 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text onPress={()=> handlePress()}>Hello World!</Text>
-      <Image />
+      {/* <Image />
       <Button 
         title='Click me'
-        onPress={() => console.log('Pressed')}/>
+        onPress={() => console.log('Pressed')}/> */}
     </SafeAreaView>
   );
 }
